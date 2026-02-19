@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: f9eab92f69dfadc46b099a7d94c83024
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1670020272396160200
+    second: Weinbergsprite2-removebg-preview_0
+  - first:
+      213: 7144186461306598155
+    second: Weinbergsprite2-removebg-preview_1
+  - first:
+      213: 3434455852020763047
+    second: Weinbergsprite2-removebg-preview_2
+  - first:
+      213: 2330549190852693732
+    second: Weinbergsprite2-removebg-preview_3
+  - first:
+      213: -1207562417290572440
+    second: Weinbergsprite2-removebg-preview_4
+  - first:
+      213: -596382581960618948
+    second: Weinbergsprite2-removebg-preview_5
+  - first:
+      213: 2554081181310843165
+    second: Weinbergsprite2-removebg-preview_6
+  - first:
+      213: 7295162374565798478
+    second: Weinbergsprite2-removebg-preview_7
+  - first:
+      213: 3718120992582181593
+    second: Weinbergsprite2-removebg-preview_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Weinbergsprite2-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 182
+        width: 90
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83330201965e2d8e0800000000000000
+      internalID: -1670020272396160200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weinbergsprite2-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 182
+        width: 91
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03b55b2cbf352360800000000000000
+      internalID: 7144186461306598155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weinbergsprite2-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 180
+        width: 91
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a98570a663a9af20800000000000000
+      internalID: 3434455852020763047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weinbergsprite2-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 179
+        width: 91
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee495c2426c75020800000000000000
+      internalID: 2330549190852693732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weinbergsprite2-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 99
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d88412160ed3fe0800000000000000
+      internalID: -1207562417290572440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weinbergsprite2-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 3
+        width: 92
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3cc104933939b7f0800000000000000
+      internalID: -596382581960618948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weinbergsprite2-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 3
+        width: 91
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19fa836d4be17320800000000000000
+      internalID: 2554081181310843165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weinbergsprite2-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 3
+        width: 91
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e422aca378f9d3560800000000000000
+      internalID: 7295162374565798478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Weinbergsprite2-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 0
+        width: 104
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2a8c2e75b699330800000000000000
+      internalID: 3718120992582181593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Weinbergsprite2-removebg-preview_0: -1670020272396160200
+      Weinbergsprite2-removebg-preview_1: 7144186461306598155
+      Weinbergsprite2-removebg-preview_2: 3434455852020763047
+      Weinbergsprite2-removebg-preview_3: 2330549190852693732
+      Weinbergsprite2-removebg-preview_4: -1207562417290572440
+      Weinbergsprite2-removebg-preview_5: -596382581960618948
+      Weinbergsprite2-removebg-preview_6: 2554081181310843165
+      Weinbergsprite2-removebg-preview_7: 7295162374565798478
+      Weinbergsprite2-removebg-preview_8: 3718120992582181593
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
