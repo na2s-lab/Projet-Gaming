@@ -346,7 +346,10 @@ GameObject:
   - component: {fileID: 936528520}
   - component: {fileID: 936528519}
   - component: {fileID: 936528522}
+<<<<<<< HEAD
   - component: {fileID: 936528523}
+=======
+>>>>>>> 3ff40af213fa499a28e6184bb849c5e3a6d27074
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -473,6 +476,7 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+<<<<<<< HEAD
 --- !u!114 &936528523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -708,6 +712,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1443394277}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> 3ff40af213fa499a28e6184bb849c5e3a6d27074
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
