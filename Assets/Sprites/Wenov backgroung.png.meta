@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dbe3cc8d6048eaa4985583ea96c62463
+guid: ad95fdffd0ce59d4b89299bbdd9b99a4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8334323415221741631
-    second: Gemini_Generated_Image_mtj1lsmtj1lsmtj1_0
+      213: 706610160286404129
+    second: Wenov backgroung_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gemini_Generated_Image_mtj1lsmtj1lsmtj1_0
+      name: Wenov backgroung_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2080
-        height: 2048
+        width: 2400
+        height: 1792
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c7dc70d209865c80800000000000000
-      internalID: -8334323415221741631
+      spriteID: 12e8d8e62326ec900800000000000000
+      internalID: 706610160286404129
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Gemini_Generated_Image_mtj1lsmtj1lsmtj1_0: -8334323415221741631
+      Wenov backgroung_0: 706610160286404129
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
