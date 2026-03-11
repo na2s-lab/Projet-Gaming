@@ -1,8 +1,5 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
-guid: 055bb39eaf06b594eb4a841555b9ca7c
-=======
-<<<<<<< HEAD
 guid: fbea40763dbd36043a39eb4418186f36
 =======
 <<<<<<< HEAD
@@ -11,7 +8,6 @@ guid: ad95fdffd0ce59d4b89299bbdd9b99a4
 guid: cedbc1466e5c27b46874017238944f4f
 >>>>>>> 5bab9940f0c346eb2c146542f8d856b78f028d34
 >>>>>>> 018b69ebb658f4c95dbd55d033f100902d951d28
->>>>>>> 3ff40af213fa499a28e6184bb849c5e3a6d27074
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -53,15 +49,11 @@ TextureImporter:
     filterMode: 1
 =======
 <<<<<<< HEAD
-    filterMode: 1
-=======
-<<<<<<< HEAD
     filterMode: 0
 =======
     filterMode: 1
 >>>>>>> 5bab9940f0c346eb2c146542f8d856b78f028d34
 >>>>>>> 018b69ebb658f4c95dbd55d033f100902d951d28
->>>>>>> 3ff40af213fa499a28e6184bb849c5e3a6d27074
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -103,15 +95,11 @@ TextureImporter:
     textureCompression: 1
 =======
 <<<<<<< HEAD
-    textureCompression: 1
-=======
-<<<<<<< HEAD
     textureCompression: 0
 =======
     textureCompression: 1
 >>>>>>> 5bab9940f0c346eb2c146542f8d856b78f028d34
 >>>>>>> 018b69ebb658f4c95dbd55d033f100902d951d28
->>>>>>> 3ff40af213fa499a28e6184bb849c5e3a6d27074
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -135,11 +123,8 @@ TextureImporter:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Sprites/Wenov backgroung.png.meta
 ========
->>>>>>> 3ff40af213fa499a28e6184bb849c5e3a6d27074
   - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
@@ -166,11 +151,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-=======
 =======
 >>>>>>> 5bab9940f0c346eb2c146542f8d856b78f028d34
->>>>>>> 3ff40af213fa499a28e6184bb849c5e3a6d27074
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -184,8 +166,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-=======
   - serializedVersion: 4
     buildTarget: WindowsStoreApps
     maxTextureSize: 2048
@@ -204,7 +184,6 @@ TextureImporter:
 =======
 >>>>>>> 5bab9940f0c346eb2c146542f8d856b78f028d34
 >>>>>>> 018b69ebb658f4c95dbd55d033f100902d951d28
->>>>>>> 3ff40af213fa499a28e6184bb849c5e3a6d27074
   spriteSheet:
     serializedVersion: 2
     sprites:
