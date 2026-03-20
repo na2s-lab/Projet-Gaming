@@ -1,22 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 055bb39eaf06b594eb4a841555b9ca7c
-=======
-<<<<<<< HEAD
-guid: fbea40763dbd36043a39eb4418186f36
-=======
-<<<<<<< HEAD
-guid: ad95fdffd0ce59d4b89299bbdd9b99a4
-=======
-guid: cedbc1466e5c27b46874017238944f4f
->>>>>>> 5bab9940f0c346eb2c146542f8d856b78f028d34
->>>>>>> 018b69ebb658f4c95dbd55d033f100902d951d28
->>>>>>> 3ff40af213fa499a28e6184bb849c5e3a6d27074
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 706610160286404129
-    second: Wenov backgroung_0
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,28 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
     filterMode: 1
-=======
-<<<<<<< HEAD
-    filterMode: 1
-=======
-<<<<<<< HEAD
-    filterMode: 0
-=======
-    filterMode: 1
->>>>>>> 5bab9940f0c346eb2c146542f8d856b78f028d34
->>>>>>> 018b69ebb658f4c95dbd55d033f100902d951d28
->>>>>>> 3ff40af213fa499a28e6184bb849c5e3a6d27074
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -90,28 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< HEAD
-    textureCompression: 1
-=======
-<<<<<<< HEAD
-    textureCompression: 1
-=======
-<<<<<<< HEAD
     textureCompression: 0
-=======
-    textureCompression: 1
->>>>>>> 5bab9940f0c346eb2c146542f8d856b78f028d34
->>>>>>> 018b69ebb658f4c95dbd55d033f100902d951d28
->>>>>>> 3ff40af213fa499a28e6184bb849c5e3a6d27074
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -124,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -132,20 +93,12 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<<< HEAD:Assets/Sprites/Wenov backgroung.png.meta
-========
->>>>>>> 3ff40af213fa499a28e6184bb849c5e3a6d27074
   - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -158,7 +111,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -166,17 +119,12 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5bab9940f0c346eb2c146542f8d856b78f028d34
->>>>>>> 3ff40af213fa499a28e6184bb849c5e3a6d27074
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -184,57 +132,14 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
-=======
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
->>>>>>>> 5bab9940f0c346eb2c146542f8d856b78f028d34:Assets/Sprites/Escalier décor1.png.meta
-=======
->>>>>>> 5bab9940f0c346eb2c146542f8d856b78f028d34
->>>>>>> 018b69ebb658f4c95dbd55d033f100902d951d28
->>>>>>> 3ff40af213fa499a28e6184bb849c5e3a6d27074
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Wenov backgroung_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2400
-        height: 1792
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12e8d8e62326ec900800000000000000
-      internalID: 706610160286404129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -243,8 +148,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Wenov backgroung_0: 706610160286404129
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
