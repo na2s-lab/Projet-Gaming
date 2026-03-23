@@ -24,6 +24,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        transform.rotation = Quaternion.identity;
+
         // ← → input
         moveInput = Input.GetAxisRaw("Horizontal");
 
