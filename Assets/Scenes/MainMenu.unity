@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 228463626}
   - component: {fileID: 228463625}
   - component: {fileID: 228463624}
+  - component: {fileID: 228463627}
   m_Layer: 5
   m_Name: BoutonCredit
   m_TagString: Untagged
@@ -376,6 +377,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 228463622}
   m_CullTransparentMesh: 1
+--- !u!114 &228463627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228463622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09233f0a70c0f454b9954c35286f0a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonClickEffect
+  scaleAmount: 0.9
+  duration: 0.1
 --- !u!1 &564072710
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,6 +449,7 @@ GameObject:
   - component: {fileID: 572181772}
   - component: {fileID: 572181771}
   - component: {fileID: 572181770}
+  - component: {fileID: 572181773}
   m_Layer: 5
   m_Name: BoutonReglage
   m_TagString: Untagged
@@ -543,6 +559,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572181768}
   m_CullTransparentMesh: 1
+--- !u!114 &572181773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572181768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09233f0a70c0f454b9954c35286f0a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonClickEffect
+  scaleAmount: 0.9
+  duration: 0.1
 --- !u!1 &728116815
 GameObject:
   m_ObjectHideFlags: 0
@@ -1089,6 +1119,7 @@ GameObject:
   - component: {fileID: 1284276707}
   - component: {fileID: 1284276706}
   - component: {fileID: 1284276705}
+  - component: {fileID: 1284276708}
   m_Layer: 5
   m_Name: BoutonJouer
   m_TagString: Untagged
@@ -1137,11 +1168,11 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.9607844, g: 0.9607844, b: 0.9607844, a: 1}
+    m_NormalColor: {r: 0.9607843, g: 0.6509804, b: 0.13725491, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.84313726, b: 0, a: 1}
+    m_PressedColor: {r: 0.76862746, g: 0.49019608, b: 0.05490196, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.9607844, g: 0.9607844, b: 0.9607844, a: 0.5019608}
+    m_DisabledColor: {r: 0.6666667, g: 0.6666667, b: 0.6666667, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1210,6 +1241,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1284276703}
   m_CullTransparentMesh: 1
+--- !u!114 &1284276708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284276703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09233f0a70c0f454b9954c35286f0a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonClickEffect
+  scaleAmount: 0.9
+  duration: 0.1
 --- !u!1 &1346690125
 GameObject:
   m_ObjectHideFlags: 0
