@@ -1,73 +1,125 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using System.Collections.Generic;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    [Header("Configuration")]
-    public int objectifsRequis = 3;     // Nombre d'étoiles à remplir
-    public GameObject pcObject;         // PC à débloquer
-    public Image[] etoilesImages;       // Array des étoiles UI
-    public Sprite etoileVide;           // Sprite étoile grise
-    public Sprite etoilePleine;         // Sprite étoile dorée
-    public TextMeshProUGUI compteurText; // "3/3"
+    [Header("Niveau")]
+    public int objectifsRequis = 2;
+    public int objectifsCollectes = 0;
 
-    int objectifsCollectes = 0;
-    bool pcDebloque = false;
+    [Header("PC")]
+    public GameObject pcObject;
+
+    [Header("UI Etoiles")]
+    public Image[] etoilesImages;
+    public Sprite etoileVide;
+    public Sprite etoilePleine;
+    public TextMeshProUGUI compteurText;
+
+    [Header("UI Victoire")]
+    public GameObject panneauVictoire;
+    public TextMeshProUGUI texteVictoire;
+
+    private bool pcDebloque = false;
 
     void Awake()
     {
         if (instance == null)
-        {
             instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
         else
             Destroy(gameObject);
     }
 
+    void Start()
+    {
+        InitialiserEtoiles();
+        InitialiserUI();
+
+        if (pcObject != null)
+        {
+            Collider2D col = pcObject.GetComponent<Collider2D>();
+            if (col != null)
+                col.enabled = false;
+        }
+    }
+
+    void InitialiserEtoiles()
+    {
+        for (int i = 0; i < etoilesImages.Length; i++)
+        {
+            if (etoilesImages[i] != null)
+            {
+                etoilesImages[i].gameObject.SetActive(i < objectifsRequis);
+                etoilesImages[i].sprite = etoileVide;
+            }
+        }
+    }
+
+    void InitialiserUI()
+    {
+        if (panneauVictoire != null)
+            panneauVictoire.SetActive(false);
+        UpdateUI();
+    }
+
     public void CollecterObjectif()
     {
+        if (objectifsCollectes >= objectifsRequis)
+            return;
+
         objectifsCollectes++;
-
-        // Mettre l'étoile en doré
-        if (objectifsCollectes <= objectifsRequis && objectifsCollectes - 1 < etoilesImages.Length)
-        {
-            etoilesImages[objectifsCollectes - 1].sprite = etoilePleine;
-        }
-
         UpdateUI();
 
-        // Débloquer PC
-        if (objectifsCollectes >= objectifsRequis && !pcDebloque)
+        if (objectifsCollectes - 1 < etoilesImages.Length && etoilesImages[objectifsCollectes - 1] != null)
+            etoilesImages[objectifsCollectes - 1].sprite = etoilePleine;
+
+        if (objectifsCollectes >= objectifsRequis)
         {
-            pcDebloque = true;
-            if (pcObject != null)
-            {
-                Collider2D colliderPC = pcObject.GetComponent<Collider2D>();
-                if (colliderPC != null)
-                    colliderPC.enabled = true;
-            }
-            Debug.Log("✅ PC DÉBLOQUÉ !");
+            Victoire();
         }
     }
 
     void UpdateUI()
     {
         if (compteurText != null)
-            compteurText.text = $"{objectifsCollectes}/{objectifsRequis}";
+            compteurText.text = objectifsCollectes + "/" + objectifsRequis;
+    }
+
+    public void Victoire()
+    {
+        // PAS DE Time.timeScale = 0 → le jeu continue normalement
+        if (panneauVictoire != null)
+        {
+            panneauVictoire.SetActive(true);
+            texteVictoire.text = "Objectifs récoltés !\nPC disponible !";
+
+            // Cache le message après 3 secondes
+            StartCoroutine(CacherMessageVictoire());
+        }
+
+        // Débloque le PC
+        pcDebloque = true;
+        if (pcObject != null)
+        {
+            Collider2D col = pcObject.GetComponent<Collider2D>();
+            if (col != null)
+                col.enabled = true;
+        }
+    }
+
+    IEnumerator CacherMessageVictoire()
+    {
+        yield return new WaitForSeconds(3f);
+        if (panneauVictoire != null)
+            panneauVictoire.SetActive(false);
     }
 
     public bool EstPCDebloque()
     {
         return pcDebloque;
-    }
-
-    public int GetObjectifsCollectes()
-    {
-        return objectifsCollectes;
     }
 }

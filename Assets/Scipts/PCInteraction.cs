@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
 
@@ -7,15 +6,17 @@ using System.Collections.Generic;
 public class Question
 {
     public string questionText;
-    [TextArea(1, 2)]
+    [TextArea(3, 8)]
+    public string textOption;
     public List<string> correctAnswers = new List<string>();
 }
 
-public class PCInteraction : MonoBehaviour  // ← MonoBehaviour obligatoire !
+public class PCInteraction : MonoBehaviour
 {
     [Header("UI")]
     public GameObject pcPanel;
     public TextMeshProUGUI questionText;
+    public TMP_Text codeText;
     public TMP_InputField answerInput;
 
     [Header("Questions")]
@@ -23,7 +24,6 @@ public class PCInteraction : MonoBehaviour  // ← MonoBehaviour obligatoire !
 
     [Header("Porte Niveau Suivant")]
     public GameObject door;
-    public string nextLevelScene = "Niveau2";
 
     [Header("Debug")]
     public int currentQuestionIndex = 0;
@@ -33,16 +33,12 @@ public class PCInteraction : MonoBehaviour  // ← MonoBehaviour obligatoire !
 
     void Start()
     {
-        Collider2D colliderPC = GetComponent<Collider2D>();
-        if (colliderPC != null)
-            colliderPC.enabled = false;  // Bloqué au début
-
         pcPanel.SetActive(false);
+
         if (door != null)
             door.SetActive(false);
 
-        if (questions.Count > 0)
-            questionText.text = questions[0].questionText;
+        DisplayQuestion();
     }
 
     void Update()
@@ -50,14 +46,18 @@ public class PCInteraction : MonoBehaviour  // ← MonoBehaviour obligatoire !
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
             pcPanel.SetActive(!pcPanel.activeSelf);
+
             if (answerInput != null && pcPanel.activeSelf)
+            {
+                answerInput.text = "";
                 answerInput.Select();
+                answerInput.ActivateInputField();
+            }
         }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Trigger PC : " + other.tag);  // Debug
         if (other.CompareTag("Player"))
             playerInRange = true;
     }
@@ -68,16 +68,24 @@ public class PCInteraction : MonoBehaviour  // ← MonoBehaviour obligatoire !
             playerInRange = false;
     }
 
+    void DisplayQuestion()
+    {
+        if (questions.Count == 0) return;
+
+        questionText.text = questions[currentQuestionIndex].questionText;
+        codeText.text = questions[currentQuestionIndex].textOption;
+    }
+
     public void OnValidateClicked()
     {
-        Debug.Log("🔥 BOUTON VALIDER !");  // Debug
+        if (questions.Count == 0) return;
 
         string answer = answerInput.text.ToLower().Trim();
         bool correct = false;
 
         foreach (string goodAnswer in questions[currentQuestionIndex].correctAnswers)
         {
-            if (answer.Contains(goodAnswer.ToLower()))
+            if (answer.Contains(goodAnswer.ToLower().Trim()))
             {
                 correct = true;
                 break;
@@ -87,21 +95,14 @@ public class PCInteraction : MonoBehaviour  // ← MonoBehaviour obligatoire !
         if (correct && !levelCompleted)
         {
             levelCompleted = true;
-            Debug.Log("✅ BONNE RÉPONSE !");
+            Debug.Log("Bonne réponse");
 
             if (door != null)
-            {
                 door.SetActive(true);
-                Debug.Log("🚪 PORTE ACTIVÉE !");
-            }
-
-            currentQuestionIndex = (currentQuestionIndex + 1) % questions.Count;
-            if (questions.Count > 0)
-                questionText.text = questions[currentQuestionIndex].questionText;
         }
-        else if (!correct)
+        else
         {
-            Debug.Log("❌ FAUX");
+            Debug.Log("Mauvaise réponse");
         }
 
         pcPanel.SetActive(false);
