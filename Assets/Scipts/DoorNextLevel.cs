@@ -1,13 +1,15 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DoorScript : MonoBehaviour
+public class DoorNextLevel : MonoBehaviour
 {
-    public string nextScene = "Niveau 3";
+    public string nomSceneSuivante;
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
-            SceneManager.LoadScene(nextScene);
+        {
+            SceneFader.Instance.LoadSceneWithFade(nomSceneSuivante);
+        }
     }
 }
