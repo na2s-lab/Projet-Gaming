@@ -2604,7 +2604,7 @@ MonoBehaviour:
   smoothTime: 0.15
   offset: {x: 1, y: 0.5, z: 0}
   minX: -6
-  maxX: 9.2
+  maxX: 9
   minY: -5
   maxY: 10
 --- !u!1001 &1259626919
