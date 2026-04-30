@@ -1,19 +1,22 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Obligatoire pour changer de scène
+using UnityEngine.SceneManagement; 
 
-public class PiegeDommage : MonoBehaviour
+public class degat_eppe : MonoBehaviour
 {
-    // Cette fonction se déclenche dès qu'un objet entre dans le collider de l'épée
-    private void OnTriggerEnter2D(Collider2D other)
+  
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        // On vérifie si l'objet qui nous touche a le Tag "Player"
-        if (other.CompareTag("Player"))
-        {
-            Debug.Log("Touché ! Le joueur est mort.");
+     
+        Debug.Log("L'épée a été touchée par : " + collision.gameObject.name);
 
-            // On recharge la scène actuelle pour recommencer
-            Scene currentScene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(currentScene.name);
+       
+        if (collision.CompareTag("Player"))
+        {
+            Debug.Log("MORT : Le joueur a touché l'épée ! Rechargement...");
+
+            
+            string nomDeLaScene = SceneManager.GetActiveScene().name;
+            SceneManager.LoadScene(nomDeLaScene);
         }
     }
 }

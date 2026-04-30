@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: e6a7be6bbd28f3947857631e26309d60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8171495879907824462
+    second: sprite mur_0
+  - first:
+      213: 3762674205652245673
+    second: sprite mur_1
+  - first:
+      213: 5004729615293656780
+    second: sprite mur_2
+  - first:
+      213: -7983205158754075002
+    second: sprite mur_3
+  - first:
+      213: 386319088460310721
+    second: sprite mur_4
+  - first:
+      213: 2902672214839481905
+    second: sprite mur_5
+  - first:
+      213: -5295620088145394438
+    second: sprite mur_6
+  - first:
+      213: 9193594766441878023
+    second: sprite mur_7
+  - first:
+      213: -3089934394530620169
+    second: sprite mur_8
+  - first:
+      213: 6417590691179551465
+    second: sprite mur_9
+  - first:
+      213: -5938982120689599023
+    second: sprite mur_10
+  - first:
+      213: -3855488335976377950
+    second: sprite mur_11
+  - first:
+      213: -1231410299824066081
+    second: sprite mur_12
+  - first:
+      213: 2534240685854354955
+    second: sprite mur_13
+  - first:
+      213: 2851846540398130424
+    second: sprite mur_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite mur_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 835
+        width: 267
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e435975553cf66170800000000000000
+      internalID: 8171495879907824462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mur_1
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 832
+        width: 271
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac5d692144b73430800000000000000
+      internalID: 3762674205652245673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mur_2
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 832
+        width: 272
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccea474a11f547540800000000000000
+      internalID: 5004729615293656780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mur_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 635
+        width: 271
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68eb5677435f53190800000000000000
+      internalID: -7983205158754075002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mur_4
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 635
+        width: 271
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c821a50a2b7c5500800000000000000
+      internalID: 386319088460310721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mur_5
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 635
+        width: 272
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13657e8100d584820800000000000000
+      internalID: 2902672214839481905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mur_6
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 441
+        width: 271
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4cba4569d2286b0800000000000000
+      internalID: -5295620088145394438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mur_7
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 441
+        width: 271
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70298a6fab5369f70800000000000000
+      internalID: 9193594766441878023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mur_8
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 441
+        width: 272
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc9db21a095e15d0800000000000000
+      internalID: -3089934394530620169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mur_9
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 245
+        width: 271
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea5c955bbcdf0950800000000000000
+      internalID: 6417590691179551465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mur_10
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 245
+        width: 271
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd76e03a3f749da0800000000000000
+      internalID: -5938982120689599023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mur_11
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 245
+        width: 272
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1577229cd8e7ac0800000000000000
+      internalID: -3855488335976377950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mur_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 48
+        width: 271
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1ba3a4bd629eee0800000000000000
+      internalID: -1231410299824066081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mur_13
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 45
+        width: 271
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ee0bf0a7e6b2320800000000000000
+      internalID: 2534240685854354955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mur_14
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 45
+        width: 272
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f47b5a915bc39720800000000000000
+      internalID: 2851846540398130424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 32a42622688273d4e86c3082437e702e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sprite mur_0: 8171495879907824462
+      sprite mur_1: 3762674205652245673
+      sprite mur_10: -5938982120689599023
+      sprite mur_11: -3855488335976377950
+      sprite mur_12: -1231410299824066081
+      sprite mur_13: 2534240685854354955
+      sprite mur_14: 2851846540398130424
+      sprite mur_2: 5004729615293656780
+      sprite mur_3: -7983205158754075002
+      sprite mur_4: 386319088460310721
+      sprite mur_5: 2902672214839481905
+      sprite mur_6: -5295620088145394438
+      sprite mur_7: 9193594766441878023
+      sprite mur_8: -3089934394530620169
+      sprite mur_9: 6417590691179551465
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
