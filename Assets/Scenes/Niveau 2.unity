@@ -1926,7 +1926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b423911ecd84bc41b066d112950596a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorScript
-  nomSceneSuivante: 3
+  nomSceneSuivante: Niveau 3
 --- !u!61 &996338528
 BoxCollider2D:
   m_ObjectHideFlags: 0
