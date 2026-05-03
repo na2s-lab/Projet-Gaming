@@ -4820,7 +4820,9 @@ GameObject:
   - component: {fileID: 2058314136}
   - component: {fileID: 2058314135}
   - component: {fileID: 2058314134}
-  m_Layer: 0
+  - component: {fileID: 2058314138}
+  - component: {fileID: 2058314139}
+  m_Layer: 8
   m_Name: Sword-1.png-removebg-preview_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4925,6 +4927,96 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &2058314138
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058314133}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.511396, y: 0.024498334}
+    oldSize: {x: 0.85, y: 3.84}
+    newSize: {x: 0.85, y: 3.84}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.16531341, y: 0.71592635}
+      - {x: 0.35531342, y: 0.76592636}
+      - {x: 0.4053134, y: 0.88592637}
+      - {x: 0.4053134, y: 1.0059264}
+      - {x: 0.3453134, y: 1.1059264}
+      - {x: 0.3153134, y: 1.5259264}
+      - {x: 0.3153134, y: 1.9159263}
+      - {x: 0.3753134, y: 2.8959265}
+      - {x: 0.3653134, y: 3.2059264}
+      - {x: 0.3353134, y: 3.2859263}
+      - {x: 0.16531341, y: 3.6159265}
+      - {x: 0.0053134155, y: 3.7459264}
+      - {x: -0.06468658, y: 3.7459264}
+      - {x: -0.10468658, y: 3.7059264}
+      - {x: -0.40468657, y: 3.2859263}
+      - {x: -0.41468656, y: 2.8959265}
+      - {x: -0.36468658, y: 2.2359264}
+      - {x: -0.3546866, y: 1.9459263}
+      - {x: -0.33468658, y: 1.5459263}
+      - {x: -0.3546866, y: 1.1859263}
+      - {x: -0.43468657, y: 0.9959263}
+      - {x: -0.43468657, y: 0.8659263}
+      - {x: -0.36468658, y: 0.78592634}
+      - {x: -0.16468658, y: 0.71592635}
+      - {x: -0.084686585, y: 0.70592636}
+      - {x: -0.124686584, y: -0.044073638}
+      - {x: -0.07468658, y: -0.09407364}
+      - {x: 0.08531342, y: -0.09407364}
+      - {x: 0.14531341, y: 0.075926356}
+      - {x: 0.07531341, y: 0.09592636}
+      - {x: 0.07531341, y: 0.70592636}
+  m_UseDelaunayMesh: 0
+--- !u!114 &2058314139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058314133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3946c93c0e8b7b546b6e6fc9ce9ffa23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpikeTrap
 --- !u!1 &2059242289
 GameObject:
   m_ObjectHideFlags: 0
